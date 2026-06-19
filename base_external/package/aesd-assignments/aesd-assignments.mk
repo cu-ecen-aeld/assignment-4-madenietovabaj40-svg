@@ -1,16 +1,9 @@
-################################################################################
-#
-# AESD_ASSIGNMENTS
-#
-################################################################################
-
-AESD_ASSIGNMENTS_VERSION = 387b6e796624729c40881e010832e80d1d13329f
-AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-madenietovabaj40-svg.git
-AESD_ASSIGNMENTS_SITE_METHOD = git
-AESD_ASSIGNMENTS_MODULE_SUBDIRS = server
+AESD_ASSIGNMENTS_VERSION = 'main'
+AESD_ASSIGNMENTS_SITE = $(@D)
+AESD_ASSIGNMENTS_SITE_METHOD = local
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
-	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server
+	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/server all
 endef
 
 define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
