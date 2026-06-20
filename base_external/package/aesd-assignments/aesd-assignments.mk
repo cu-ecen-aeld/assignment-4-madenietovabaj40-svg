@@ -4,7 +4,7 @@
 #
 ##############################################################
 
-AESD_ASSIGNMENTS_VERSION = '77b45aef54fe359766e822d8101249c62daf060e'
+AESD_ASSIGNMENTS_VERSION = '0961ac83ba1b3865d5a102e1801f889c96c02766'
 AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-madenietovabaj40-svg.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
